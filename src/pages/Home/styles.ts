@@ -45,6 +45,7 @@ export const ProductList = styled.ul`
       transition: background 0.2s;
 
       &:hover {
+        cursor: pointer;
         background: ${darken(0.06, '#7159c1')};
       }
 
